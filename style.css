@@ -28,9 +28,11 @@ header {
     padding-top: 32px;
     height: calc(120px + 32px);
 }
-header div {
+
+.title {
     text-align: center;
     color: white;
+    padding: 10px;
 }
 
 header p {
@@ -63,7 +65,7 @@ main {
     max-width: 580px;
     width: 90%;
     margin: 32px auto;
-    padding-top: 45px;
+    padding-top: 80px;
 }
 
 section {
@@ -91,10 +93,11 @@ section p {
 
 section ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 16px;
     margin-top: 24px;
-
 }
 
 section ul li {
@@ -105,10 +108,21 @@ section ul li:hover {
     transform: scale(1.1);
 }
 
+.movies-list img {
+    border-radius: 8px;
+    width: 90px;
+}
+
+.series-list img {
+    border-radius: 8px;
+    width: 90px;
+}
+
 .games-list img {
     border-radius: 8px;
     width: 90px;
 }
+
 
 .channel-list img {
     border-radius: 50%;
@@ -160,5 +174,15 @@ main section:nth-child(3){
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+
+@media (max-width: 500px) {
+    main {
+        padding-top: 100px;
+    }
+    section {
+        text-align: center;
     }
 }
