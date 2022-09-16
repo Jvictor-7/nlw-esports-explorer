@@ -123,11 +123,14 @@ section ul li:hover {
     width: 90px;
 }
 
-
 .channel-list img {
     border-radius: 50%;
     width: 70px;
     border: 1px solid #443E54;
+}
+
+.contato ul{
+    justify-content: flex-start;
 }
 
 /* animation */
@@ -184,5 +187,8 @@ main section:nth-child(3){
     }
     section {
         text-align: center;
+    }
+    .contato ul{
+        justify-content: center;
     }
 }
