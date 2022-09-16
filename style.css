@@ -12,7 +12,7 @@ ul {
 /* // RESETANDO CSS */
 
 body {
-    background-image: url(./assets/bg.jpg);
+    background-image: url(./assets/bg2.jpg);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
 }
 
 body * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 160%;
 }
 /* FEITO POR MIM */
@@ -29,20 +29,31 @@ header {
     height: calc(120px + 32px);
 }
 header div {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header p {
+    color: #A1A1AA;
+}
+
+header .divImagem {
     margin: auto;
     width: 120px;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
     border-radius: 50%;
     display: flex;
     padding: 4px;
     transition: transform .3s;
 }
 
-header div:hover {
+header .divImagem:hover {
     transform: scale(1.1);
 }
 
-header div img {
+header .divImagem img {
     width: 100%;
     border-radius: 50%;
 }
@@ -54,11 +65,12 @@ main {
     max-width: 580px;
     width: 90%;
     margin: 32px auto;
+    padding-top: 45px;
 }
 
 section {
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
