@@ -183,7 +183,7 @@ main section:nth-child(3){
 
 @media (max-width: 500px) {
     main {
-        padding-top: 100px;
+        padding-top: 80px;
     }
     section {
         text-align: center;
